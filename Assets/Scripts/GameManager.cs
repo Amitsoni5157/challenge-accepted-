@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     // This will hold the currently flipped cards (only 2 at a time for comparison)
     private List<Card> flippedCards = new List<Card>();
+    
+    private int score = 0;
+    private int penalty = -1;
+    public UIManager uiManager;
 
     void Awake()
     {
@@ -39,16 +43,21 @@ public class GameManager : MonoBehaviour
         // Check if the two flipped cards match immediately
         if (flippedCards[0].frontSprite == flippedCards[1].frontSprite)
         {
+            score += 10;
+            yield return new WaitForSeconds(0.15f);
             // If the cards match, destroy them
             Destroy(flippedCards[0].gameObject);
             Destroy(flippedCards[1].gameObject);
         }
         else
         {
+            score += penalty;
             // If the cards don't match, reset them
             flippedCards[0].ResetCard();
             flippedCards[1].ResetCard();
         }
+
+        uiManager.UpdateScore(score);
 
         // Clear the list of flipped cards after comparison to allow new cards to be flipped
         flippedCards.Clear();
