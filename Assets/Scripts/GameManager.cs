@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     private int penalty = -1;
     public UIManager uiManager;
-
+    public SoundManager soundManager;
     void Awake()
     {
         if (instance == null) instance = this;
@@ -26,7 +26,8 @@ public class GameManager : MonoBehaviour
 
         // Flip the card and add it to the list of flipped cards
         flippedCards.Add(selectedCard);
-        selectedCard.FlipCard();
+        selectedCard.FlipCard(); 
+        soundManager.PlayFlipSound();
 
         // If two cards are flipped, start comparing them immediately
         if (flippedCards.Count == 2)
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
         if (flippedCards[0].frontSprite == flippedCards[1].frontSprite)
         {
             score += 10;
+            soundManager.PlayMatchSound();
             yield return new WaitForSeconds(0.15f);
             // If the cards match, destroy them
             Destroy(flippedCards[0].gameObject);
@@ -55,6 +57,7 @@ public class GameManager : MonoBehaviour
             // If the cards don't match, reset them
             flippedCards[0].ResetCard();
             flippedCards[1].ResetCard();
+            soundManager.PlayMismatchSound();
         }
 
         uiManager.UpdateScore(score);
