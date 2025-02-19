@@ -11,4 +11,12 @@ public class UIManager : MonoBehaviour
     {
         scoreText.text = "Score: " + score.ToString();
     }
+    public void LoadGame()
+    {
+        GameData loadedData = SaveManager.LoadGame();
+        if (loadedData != null)
+        {
+            scoreText.text = "Loaded Score: " + loadedData.score.ToString();
+        }
+    }
 }

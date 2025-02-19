@@ -475,6 +475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &113370246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -624,6 +625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &140644414
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &158822749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &184216228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1225,6 +1229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &280268828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1374,6 +1379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &292814688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1523,6 +1529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &431786593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6564259901722262225, guid: 2f6b90edc30fdc749b7e678eba21b46e, type: 3}
@@ -1547,6 +1554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +1917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &723972879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2058,6 +2067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &753882906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2207,6 +2217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &810379011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2356,6 +2367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &847749811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6564259901722262225, guid: 2f6b90edc30fdc749b7e678eba21b46e, type: 3}
@@ -2380,6 +2392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &955430404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6564259901722262225, guid: 2f6b90edc30fdc749b7e678eba21b46e, type: 3}
@@ -2404,6 +2417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &975352903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2682,6 +2696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1115497566
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,6 +2728,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiManager: {fileID: 158822750}
   soundManager: {fileID: 1247186314}
+  allCards:
+  - {fileID: 3230501451723792543}
+  - {fileID: 3230501450559842870}
+  - {fileID: 3230501450959561755}
+  - {fileID: 3230501451966266871}
+  - {fileID: 3230501451477435888}
+  - {fileID: 3230501450933080920}
 --- !u!4 &1115497568
 Transform:
   m_ObjectHideFlags: 0
@@ -2877,6 +2899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1204044890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3026,6 +3049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1208882031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3175,6 +3199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1222173615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3324,6 +3349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1242394857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3473,6 +3499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1247186313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3766,6 +3793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1311910879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3915,6 +3943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1314990517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,6 +4200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1390013652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4324,6 +4354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1499753416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4473,6 +4504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1536802645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4622,6 +4654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1606079790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4872,6 +4905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1678984597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5126,6 +5160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &1849442478
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,6 +5441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1933589994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5555,6 +5591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1936867435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5708,6 +5745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &1984461933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5857,6 +5895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!1001 &2047177088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6006,6 +6045,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
+--- !u!1 &2112650846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112650848}
+  - component: {fileID: 2112650847}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2112650847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112650846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b559de438eef824f80f2e2d99cfd4e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2112650848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112650846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2120061002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6159,6 +6243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
+  cardIndex: 0
 --- !u!95 &855385697885934187
 Animator:
   serializedVersion: 5
@@ -6293,6 +6378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: 5dd852cd475d87c4fae11e876f3b6fbb, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &3230501450933080920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6307,6 +6393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: d41e52564f965cc4e8f73b3e8e3a3281, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &3230501450959561755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6321,6 +6408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: 04e91badc7478994289ca51b93261965, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &3230501451477435888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6335,6 +6423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: d41e52564f965cc4e8f73b3e8e3a3281, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &3230501451723792543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6349,6 +6438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: 5dd852cd475d87c4fae11e876f3b6fbb, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &3230501451966266871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6363,6 +6453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 21300000, guid: 04e91badc7478994289ca51b93261965, type: 3}
   backSprite: {fileID: 21300000, guid: f0784dd96bbcd734e9eb0bea52afdd06, type: 3}
+  cardIndex: 0
 --- !u!114 &6564259901844338148
 MonoBehaviour:
   m_ObjectHideFlags: 0

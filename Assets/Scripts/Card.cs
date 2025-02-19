@@ -3,11 +3,14 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
-    public Sprite frontSprite; // Card ka image (front)
-    public Sprite backSprite;  // Card ka image (back)
+    public Sprite frontSprite;
+    public Sprite backSprite;
 
     private Image cardImage;
     private bool isFlipped = false;
+    public bool IsMatched { get; set; } = false; 
+
+    public int cardIndex;
 
     void Start()
     {
@@ -17,17 +20,20 @@ public class Card : MonoBehaviour
 
     public void FlipCard()
     {
-        if (!isFlipped)
+        if (!isFlipped && !IsMatched)
         {
-            cardImage.sprite = frontSprite; // Flip to front
+            cardImage.sprite = frontSprite;
             isFlipped = true;
-            GameManager.instance.CheckMatch(this); // Matching logic call
+            GameManager.instance.CheckMatch(this);
         }
     }
 
     public void ResetCard()
     {
-        cardImage.sprite = backSprite;
-        isFlipped = false;
+        if (!IsMatched)
+        {
+            cardImage.sprite = backSprite;
+            isFlipped = false;
+        }
     }
 }
